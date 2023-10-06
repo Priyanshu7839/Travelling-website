@@ -1,0 +1,59 @@
+#footer {
+  /* border-top: 0.5px solid black; */
+  background: linear-gradient(to bottom, #a8dbfa, #837fe8);
+  overflow: hidden;
+}
+#footer .typography {
+  margin-bottom: 8vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#footer .copyright {
+  margin-bottom: 5vh;
+}
+
+#footer .typography .journey_overlap {
+  margin-bottom: -50px;
+  font-size: 100px;
+  font-weight: 600;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.4);
+}
+#footer .typography h2,
+#footer .typography h3 {
+  font-size: 50px;
+  color: #ffffff90;
+  font-weight: 600;
+}
+#footer .text-footer {
+  text-decoration: none;
+  color: black;
+}
+#footer .text-head {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+
+
+
+/*------------------------------cards-----------------------------------------*/
+#pricing {
+  background: linear-gradient(to bottom, white, #a8dbfa);
+  min-height: 70vh;
+}
+
+#pricing .cards{
+   max-width: 15vw !important;
+    height: 25vh;
+    border: 1px solid black;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    overflow: hidden;
+   
+}
+#pricing .cards+.cards{
+    margin-left: 5vw;
+}
