@@ -1,3 +1,6 @@
+*{
+  scroll-behavior: smooth;
+}
 #footer {
   /* border-top: 0.5px solid black; */
   background: linear-gradient(to bottom, #a8dbfa, #837fe8);
@@ -35,7 +38,21 @@
   color: black;
   font-weight: 600;
 }
-
+@media screen and (max-width: 600px) {
+  #footer .typography .journey_overlap {
+      margin-bottom: -40px;
+      font-size: 70px;
+      font-weight: 600;
+      font-style: italic;
+      color: rgba(0, 0, 0, 0.4);
+    }
+    #footer .typography h2,
+    #footer .typography h3 {
+      font-size: 35px;
+      color: #ffffff90;
+      font-weight: 600;
+    }
+}
 
 
 
@@ -46,14 +63,19 @@
 }
 
 #pricing .cards{
-   max-width: 15vw !important;
+
     height: 25vh;
     border: 1px solid black;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     overflow: hidden;
    
+   
 }
-#pricing .cards+.cards{
-    margin-left: 5vw;
+#pricing .card-deck{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
+
