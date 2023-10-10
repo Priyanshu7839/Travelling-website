@@ -69,6 +69,8 @@
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     overflow: hidden;
+    max-height: 25vh;
+    
    
    
 }
@@ -79,3 +81,11 @@
   gap: 10px;
 }
 
+
+
+.specifications .content{
+  max-height: 30vh;
+  overflow-y: scroll;
+
+  
+}
