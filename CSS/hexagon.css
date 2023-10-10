@@ -20,3 +20,18 @@
 .container_hexagon .images+.images{
    margin-top: -32px;
 }
+
+@media screen and (max-width: 600px) {
+    .container_hexagon .images img{
+        height: 60px;
+        width: 60px;
+    }
+    .container_hexagon .images+.images{
+        margin-top: -13px;
+    }
+    .container_hexagon h3{
+        font-size: 13px;
+    }
+
+
+}
